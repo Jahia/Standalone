@@ -12,7 +12,7 @@
 </com.izforge.izpack.panels.UserInputPanel>
 <com.izforge.izpack.panels.PacksPanel id="packsPanel">
 <pack index="0" name="jahia" selected="true"/>
-<pack index="1" name="tomcat" selected="false"/>
+<pack index="1" name="tomcat" selected="true"/>
 </com.izforge.izpack.panels.PacksPanel>
 <com.izforge.izpack.panels.UserInputPanel id="serverType">
 <userInput/>
@@ -87,7 +87,7 @@
 <com.izforge.izpack.panels.UserInputPanel id="afterInstall">
 <userInput>
 <entry key="afterInstall.startTomcat" value="false"/>
-<entry key="afterInstall.launchJahia" value="false"/>
+<entry key="afterInstall.launchJahia" value="true"/>
 </userInput>
 </com.izforge.izpack.panels.UserInputPanel>
 <com.izforge.izpack.panels.ProcessPanel id="UNKNOWN (com.izforge.izpack.panels.ProcessPanel)"/>
