@@ -30,7 +30,7 @@
 
 <pack selected="true" name="jahia" index="0"/>
 
-<pack selected="true" name="tomcat" index="1"/>
+<pack selected="false" name="tomcat" index="1"/>
 
 </com.izforge.izpack.panels.PacksPanel>
 
