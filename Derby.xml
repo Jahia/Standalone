@@ -9,7 +9,7 @@
 
 -<com.izforge.izpack.panels.TargetPanel id="UNKNOWN (com.izforge.izpack.panels.TargetPanel)">
 
-<installpath>C:\Derby</installpath>
+<installpath>C:\DigitalExperienceManager-EnterpriseDistribution-7.2.1.1</installpath>
 
 </com.izforge.izpack.panels.TargetPanel>
 
@@ -181,9 +181,9 @@
 
 <shortcut name="Digital Experience Manager Administration" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\OpenAdministration.URL" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\jahia.ico" group="true" encoding="UTF-8" description="Open the Digital Experience Manager Administration page (running on localhost)" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
 
-<shortcut name="Start Digital Experience Manager" workingDirectory="C:\Derby\" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\start.bat" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\start.ico" group="true" encoding="UTF-8" description="This starts the Digital Experience Manager Server" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+<shortcut name="Start Digital Experience Manager" workingDirectory="C:\DigitalExperienceManager-EnterpriseDistribution-7.2.1.1" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\start.bat" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\start.ico" group="true" encoding="UTF-8" description="This starts the Digital Experience Manager Server" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
 
-<shortcut name="Stop Digital Experience Manager" workingDirectory="C:\Derby\" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\stop.bat" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\stop.ico" group="true" encoding="UTF-8" description="This stops the Digital Experience Manager Server" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+<shortcut name="Stop Digital Experience Manager" workingDirectory="C:\DigitalExperienceManager-EnterpriseDistribution-7.2.1.1" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\stop.bat" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\stop.ico" group="true" encoding="UTF-8" description="This stops the Digital Experience Manager Server" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
 
 <shortcut name="Uninstall Digital Experience Manager" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Program Files\Java\jre1.8.0_181\bin\java.exe" mimetype="" initialState="0" iconIndex="31" icon="%SystemRoot%\system32\shell32.dll" group="true" encoding="UTF-8" description="This removes the Digital Experience Manager Server from your system" createForAll="false" commandLine="-jar C:\Derby\uninstaller\uninstaller.jar" categories="" KdeSubstUID="false"/>
 
