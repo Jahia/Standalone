@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+-<AutomatedInstallation langpack="eng">
+
+<com.izforge.izpack.panels.HelloPanel id="UNKNOWN (com.izforge.izpack.panels.HelloPanel)"/>
+
+<com.izforge.izpack.panels.LicencePanel id="UNKNOWN (com.izforge.izpack.panels.LicencePanel)"/>
+
+
+-<com.izforge.izpack.panels.TargetPanel id="UNKNOWN (com.izforge.izpack.panels.TargetPanel)">
+
+<installpath>C:\Derby</installpath>
+
+</com.izforge.izpack.panels.TargetPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="installType">
+
+
+-<userInput>
+
+<entry value="express" key="installation.type"/>
+
+</userInput>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.PacksPanel id="packsPanel">
+
+<pack selected="true" name="jahia" index="0"/>
+
+<pack selected="true" name="tomcat" index="1"/>
+
+</com.izforge.izpack.panels.PacksPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="serverType">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="dbMode">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="dbType">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="dbTypeMySQL">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="dbSettings">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="webApp">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="appServer">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="operatingMode">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="ldap">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="cluster">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="superUser">
+
+
+-<userInput>
+
+<entry value="@TT1tude" key="superUser.password"/>
+
+</userInput>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="mailSettings">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="studioToolSettings">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="externalToolSettings">
+
+
+-<userInput>
+
+<entry value="" key="dmConfig.imagemagickPath"/>
+
+<entry value="" key="dmConfig.officePath"/>
+
+<entry value="true" key="dmConfig.validate"/>
+
+</userInput>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="additionalSettings">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="externalizedConfig">
+
+<userInput/>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+<com.izforge.izpack.panels.SummaryPanel id="UNKNOWN (com.izforge.izpack.panels.SummaryPanel)"/>
+
+<com.izforge.izpack.panels.ExtendedInstallPanel id="UNKNOWN (com.izforge.izpack.panels.ExtendedInstallPanel)"/>
+
+
+-<com.izforge.izpack.panels.ShortcutPanel id="shortcutPanel">
+
+<programGroup name="Digital Experience Manager 7.2.3.0"/>
+
+<shortcut name="Jahia Community Web Site" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\docs\JahiaCommunity.URL" mimetype="" initialState="1" iconIndex="13" icon="%SystemRoot%\system32\shell32.dll" group="true" encoding="UTF-8" description="Opens the Jahia Community Web site" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+
+<shortcut name="Jahia Company Web Site" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\docs\JahiaCorporate.URL" mimetype="" initialState="1" iconIndex="13" icon="%SystemRoot%\system32\shell32.dll" group="true" encoding="UTF-8" description="Opens the Jahia Company Web site" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+
+<shortcut name="Jahia Documentation" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\docs\JahiaDocumentation.URL" mimetype="" initialState="1" iconIndex="13" icon="%SystemRoot%\system32\shell32.dll" group="true" encoding="UTF-8" description="Opens the documentation page on the Jahia Community Web site" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+
+<shortcut name="Issue Tracking" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\docs\IssueTrackingCommunity.URL" mimetype="" initialState="1" iconIndex="13" icon="%SystemRoot%\system32\shell32.dll" group="true" encoding="UTF-8" description="Opens the Issue Tracking system" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+
+<shortcut name="Digital Experience Manager" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\OpenHome.URL" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\jahia.ico" group="true" encoding="UTF-8" description="Open the Digital Experience Manager welcome page (running on localhost)" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+
+<shortcut name="Digital Experience Manager Administration" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\OpenAdministration.URL" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\jahia.ico" group="true" encoding="UTF-8" description="Open the Digital Experience Manager Administration page (running on localhost)" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+
+<shortcut name="Start Digital Experience Manager" workingDirectory="C:\Derby\" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\start.bat" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\start.ico" group="true" encoding="UTF-8" description="This starts the Digital Experience Manager Server" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+
+<shortcut name="Stop Digital Experience Manager" workingDirectory="C:\Derby\" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Derby\stop.bat" mimetype="" initialState="1" iconIndex="0" icon="C:\Derby\icons\stop.ico" group="true" encoding="UTF-8" description="This stops the Digital Experience Manager Server" createForAll="false" commandLine="" categories="" KdeSubstUID="false"/>
+
+<shortcut name="Uninstall Digital Experience Manager" workingDirectory="" usertype="0" url="" type="1" tryexec="" terminalOptions="" terminal="" target="C:\Program Files\Java\jre1.8.0_181\bin\java.exe" mimetype="" initialState="0" iconIndex="31" icon="%SystemRoot%\system32\shell32.dll" group="true" encoding="UTF-8" description="This removes the Digital Experience Manager Server from your system" createForAll="false" commandLine="-jar C:\Derby\uninstaller\uninstaller.jar" categories="" KdeSubstUID="false"/>
+
+</com.izforge.izpack.panels.ShortcutPanel>
+
+
+-<com.izforge.izpack.panels.UserInputPanel id="afterInstall">
+
+
+-<userInput>
+
+<entry value="${FACTORY_CONFIG}/digital-factory-config" key="externalizedConfigTargetPath"/>
+
+<entry value="${FACTORY_DATA}/digital-factory-data" key="data.dir"/>
+
+</userInput>
+
+</com.izforge.izpack.panels.UserInputPanel>
+
+<com.izforge.izpack.panels.ProcessPanel id="UNKNOWN (com.izforge.izpack.panels.ProcessPanel)"/>
+
+<com.izforge.izpack.panels.FinishPanel id="UNKNOWN (com.izforge.izpack.panels.FinishPanel)"/>
+
+</AutomatedInstallation>
