@@ -12,7 +12,7 @@
 </com.izforge.izpack.panels.UserInputPanel>
 <com.izforge.izpack.panels.PacksPanel id="packsPanel">
 <pack index="0" name="jahia" selected="true"/>
-<pack index="1" name="tomcat" selected="true"/>
+<pack index="1" name="tomcat" selected="false"/>
 </com.izforge.izpack.panels.PacksPanel>
 <com.izforge.izpack.panels.UserInputPanel id="serverType">
 <userInput/>
